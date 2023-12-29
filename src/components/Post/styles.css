@@ -3,7 +3,7 @@
     background-color: #fff;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transition: 1s all;
+    transition: 500ms all;
 }
 
 .card-post:hover{
@@ -13,13 +13,4 @@
 
 .card-post img{
     max-width: 100%;
-}
-
-.bg-gray{
-    background-color: #f5f5f5;
-}
-
-.feed{
-    padding: 10px;
-    margin: 0 8%;
 }

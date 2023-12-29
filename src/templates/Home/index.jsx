@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
 import { Component } from 'react';
-import Feed from './components/Feed';
-import './components/css/style.css'
+import Feed from '../../components/Feed';
+import '../../css/style.css'
 
-class App extends Component {
+export default class Home extends Component {
   render (){
     //const {name} = this.state
     return ( 
@@ -25,5 +24,3 @@ class App extends Component {
     )
   }   
 }
-
-export default App;
