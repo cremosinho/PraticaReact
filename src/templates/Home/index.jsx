@@ -1,7 +1,7 @@
 import './styles.css';
 import { Component } from 'react';
 import Feed from '../../components/Feed';
-import '../../css/style.css'
+import '../../style/style.css'
 
 export default class Home extends Component {
   render (){
