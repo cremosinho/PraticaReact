@@ -1,5 +1,5 @@
 import Post from "../Post"
-export default function (props){
+export default function Posts (props){
     return(  
         <>
             {props.posts.map(post => (
