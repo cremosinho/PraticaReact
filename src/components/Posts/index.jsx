@@ -1,5 +1,6 @@
 import Post from "../Post"
-export default props => (  
+export default function (props){
+    return(  
         <>
             {props.posts.map(post => (
                 <Post key={post.id}
@@ -8,4 +9,5 @@ export default props => (
                 body={post.body}/>)
                 )}
         </>
-)
+    )
+}

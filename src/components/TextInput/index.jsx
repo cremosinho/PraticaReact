@@ -1,10 +1,12 @@
 import './styles.css'
 
-export default props => (
+export default function (props){
+    return(
     <input 
         onChange={props.onTextChange} 
         type="search"
         className="cs_input"
         value={props.searchText}
     />
-)
+    )
+}
